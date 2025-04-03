@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mArquivo"
+        android:icon="@drawable/baseline_file_open_24"
+        android:title="Arquivo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mAlterar"
+        android:icon="@drawable/baseline_update_24"
+        android:title="Alterar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/baseline_close_24"
+        android:title="Excluir"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mPesquisar"
+        android:icon="@drawable/baseline_update_24"
+        android:title="Pesquisar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mSair"
+        android:icon="@drawable/baseline_update_24"
+        android:title="Sair"
+        app:showAsAction="always"
+        />
 </menu>
